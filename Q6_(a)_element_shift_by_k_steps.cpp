@@ -1,5 +1,5 @@
 //Q6 BRUTE FORCE APPORACH
-//Rotate array by k steps
+//Left Rotate the array by k steps
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
