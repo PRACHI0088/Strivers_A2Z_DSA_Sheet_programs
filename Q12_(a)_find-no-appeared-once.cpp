@@ -19,7 +19,7 @@ int main()
 		{
 			maxi=max(maxi,a[i]);
 		}
-		vector<int> v(maxi);	// making hash vector array of size=largest no. in the array.
+		vector<int> v(maxi+1);	// making hash vector array of size=largest no. in the array.
 		for(int i=0;i<n;i++)
 		{
 			v[a[i]]++;
