@@ -23,10 +23,7 @@ int main()
 		{
 			for(int j=i;j<n;j++)
 			{   sum=0;
-				for(int k=i;k<=j;k++)
-				{
-					sum = sum+a[k];
-				}
+			 sum = sum+a[j];
 				if(sum==k)
 				{
 					len=max(len,j-i+1);
